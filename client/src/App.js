@@ -4,8 +4,8 @@ import Form from "./components/form";
 import TodoList from "./components/TodoList";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import { light, dark } from "./components/theme";
-import Context from "./components/Register_login/context";
-import reducer from "./components/Register_login/reducer";
+import Context from "./components/Context_files/context";
+import reducer from "./components/Context_files/reducer";
 import Switch from "./components/Switch";
 
 export const GlobalStyles = createGlobalStyle`
